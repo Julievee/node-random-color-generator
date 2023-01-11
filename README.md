@@ -6,18 +6,18 @@
 
 Generate a random color
 
-´´´bash
+```bash
 $ node index.js
-´´´
+```
 
 Generate a specific color
 
-´´´bash
+```bash
 $ node index.js blue
-´´´
+```
 
 Generate color and its luminosity
 
-´´´bash
+```bash
 § node index.js blue dark
-´´´
+```
