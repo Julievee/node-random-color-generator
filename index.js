@@ -13,12 +13,14 @@ const color = randomColor({
 
 // Colored box with hex value
 
-console.log(chalk.hex(color).bold('###############################'));
-console.log(chalk.hex(color).bold('###############################'));
-console.log(chalk.hex(color).bold('###############################'));
-console.log(chalk.hex(color).bold('#####                     #####'));
-console.log(chalk.hex(color).bold(`#####       ${color}       #####`));
-console.log(chalk.hex(color).bold('#####                     #####'));
-console.log(chalk.hex(color).bold('###############################'));
-console.log(chalk.hex(color).bold('###############################'));
-console.log(chalk.hex(color).bold('###############################'));
+console.log(
+  chalk.hex(color).bold(`###############################
+###############################
+###############################
+#####                     #####
+#####       ${color}       #####
+#####                     #####
+###############################
+###############################
+###############################`),
+);
